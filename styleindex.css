@@ -24,13 +24,22 @@
 }
 
 .image-container1{
-
+    position:relative;
+    width:auto;
+    height:auto;
+    background-color: white;
 }
 
 .image-container2{
-
+    position:relative;
+    width:auto;
+    height:auto;
+    background-color: white;
 }
 
 .image-container3{
-    
+    position:relative;
+    width:auto;
+    height:auto;
+    background-color: white;
 }
