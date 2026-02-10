@@ -8,8 +8,8 @@
     position:relative;
     justify-content: center;
     justify-content: space-evenly;
-    width:40vw;
-    height:160px;
+    width:auto;
+    height:auto;
     background-color: lightblue;
     border-radius: 10px;
     align-items:center;
