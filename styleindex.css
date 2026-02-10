@@ -16,13 +16,8 @@
 }
 
 .header{
-    position:fixed;
-    width:0;
-    height:50%;
+    position:relative;
+    width:53vw;
+    height:auto;
     background-color: goldenrod;
-    transform: translateX(-50%);
-    width:100%;
-    text-align: center;
-    padding: 20px;
-    font-weight: bold;
 }
