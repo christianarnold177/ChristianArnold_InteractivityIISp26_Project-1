@@ -3,3 +3,14 @@
     height:auto;
     background-color: lightgreen;
 }
+
+.paragraph-container{
+    position:relative;
+    justify-content: center;
+    justify-content: space-evenly;
+    width:40vw;
+    height:160px;
+    background-color: lightblue;
+    border-radius: 10px;
+    align-items:center;
+}
