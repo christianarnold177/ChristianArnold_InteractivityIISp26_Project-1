@@ -28,21 +28,27 @@
 
 .image-container1{
     position:relative;
-    width:auto;
+    width:500px;
     height:auto;
     background-color: white;
+    border-radius:10px;
+
 }
 
 .image-container2{
     position:relative;
-    width:auto;
+    width:500px;
     height:auto;
     background-color: white;
+    border-radius:10px;
+
 }
 
 .image-container3{
     position:relative;
-    width:auto;
+    width:500px;
     height:auto;
     background-color: white;
+    border-radius:10px;
+
 }
