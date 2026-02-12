@@ -113,29 +113,13 @@
     display:flex;
     flex-direction: center;
     position:relative;
-    width:46vw;
+    width:45.1vw;
     height:auto;
     background-color: goldenrod;
     border-radius:10px;
 }
 
-.image-container1{
-    position:relative;
-    width:500px;
-    height:auto;
-    background-color: white;
-    border-radius:10px;
-}
-
-.image-container2{
-    position:relative;
-    width:500px;
-    height:auto;
-    background-color: white;
-    border-radius:10px;
-}
-
-.image-container3{
+.image-container{
     position:relative;
     width:500px;
     height:auto;
