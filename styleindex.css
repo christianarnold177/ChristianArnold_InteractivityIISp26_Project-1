@@ -8,6 +8,7 @@
     position:relative;
     justify-content: center;
     justify-content: space-evenly;
+    padding: 0px;
     width:auto;
     height:auto;
     background-color: green;
@@ -16,6 +17,8 @@
 }
 
 .header{
+    display:flex;
+    flex-direction: center;
     position:relative;
     width:53vw;
     height:auto;
