@@ -4,11 +4,104 @@
     background-color: lightgray;
 }
 
-.paragraph-container{
+.paragraph-container1{
+    display:flex;
+    flex-direction:row;
     position:relative;
     justify-content: center;
     justify-content: space-evenly;
     padding: 0px;
+    gap: 10px;
+    width:auto;
+    height:auto;
+    background-color: green;
+    border-radius: 10px;
+    align-items:center;
+}
+
+.paragraph-container2{
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0px;
+    gap: 5px;
+    width:auto;
+    height:auto;
+    background-color: green;
+    border-radius: 10px;
+    align-items:center;
+}
+
+.paragraph-container3{
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0px;
+    gap: 20px;
+    width:auto;
+    height:auto;
+    background-color: green;
+    border-radius: 10px;
+    align-items:center;
+}
+
+.paragraph-container4{
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0px;
+    gap: 20px;
+    width:auto;
+    height:auto;
+    background-color: green;
+    border-radius: 10px;
+    align-items:center;
+}
+
+.paragraph-container5{
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0px;
+    gap: 20px;
+    width:auto;
+    height:auto;
+    background-color: green;
+    border-radius: 10px;
+    align-items:center;
+}
+
+.paragraph-container6{
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0px;
+    gap: 25px;
+    width:auto;
+    height:auto;
+    background-color: green;
+    border-radius: 10px;
+    align-items:center;
+}
+
+.paragraph-container7{
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0px;
+    gap: 20px;
     width:auto;
     height:auto;
     background-color: green;
