@@ -5,6 +5,8 @@
 }
 
 .paragraph-container{
+    display:flex;
+    flex-direction:row;
     position:relative;
     justify-content: center;
     justify-content: space-evenly;
