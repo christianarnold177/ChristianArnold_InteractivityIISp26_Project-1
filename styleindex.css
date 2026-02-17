@@ -54,15 +54,14 @@
 
 .header{
     display:flex;
-    flex-direction: center;
+    justify-content:center;    /* Centered horizontally */
+    align-items:center;        /* Centered vertically */
     position:relative;
-    width:45.1vw;
-    height:auto;
+    width:auto;               /* Across the page on all screens */
+    height:auto;              /* Across the page on all screens */
     background-color: goldenrod;
     border-radius:10px;
-    text-align: center;
-    justify-content:center;
-    align-items:center;
+    text-align:center;
 }
 
 .grid{
