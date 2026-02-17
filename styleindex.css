@@ -106,3 +106,18 @@
     object-fit:cover;
     flex:1;
 }
+
+.conclusion{
+    display:flex;
+    flex-direction:row;
+    position:relative;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding: 0px;
+    gap: 20px;
+    width:auto;
+    height:auto;
+    background-color: green;
+    border-radius: 10px;
+    align-items:center;
+}
