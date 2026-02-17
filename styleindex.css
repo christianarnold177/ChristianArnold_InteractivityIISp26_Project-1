@@ -60,14 +60,6 @@
     text-align: center;
 }
 
-.image-container{
-    position:relative;
-    width:500px;
-    height:auto;
-    background-color: white;
-    border-radius:10px;
-}
-
 .grid{
     display:flex;
     gap:24px;
