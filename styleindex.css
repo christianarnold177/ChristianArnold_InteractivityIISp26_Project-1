@@ -67,9 +67,9 @@
 }
 
 .column{
-    flex:1;      /* Equal width for the columns*/
+    flex:1;      /* Equal width for the columns */
     display:flex;
-    flex-direction:column;    /* Vertically stacked*/
+    flex-direction:column;    /* Vertically stacked */
     gap:24px;
     min-height:80vh;
 }
@@ -86,12 +86,12 @@
     margin: 0 0 12px 0;
 }
 
-/*Each will have equal height*/
+/* Each will have equal height */
 .image-panel,.text-panel{
     flex: 1;
 }
 
-/* Image will fill the top of the panel*/
+/* Image will fill the top of the panel */
 .image-panel{
     width:100%;
     height:100%;
