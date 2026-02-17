@@ -110,6 +110,7 @@
     height:auto;
     flex:1;
     position:relative;
+    object-fit:cover;
     background-color: white;
     font-family: Merriweather, serif;
     font-optical-sizing: auto;
