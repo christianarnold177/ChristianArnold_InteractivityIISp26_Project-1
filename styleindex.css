@@ -127,3 +127,15 @@
     background-color: white;
     border-radius:10px;
 }
+
+.display{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+    margin:auto;
+    width: 90vw;
+    height: 150px;
+}
