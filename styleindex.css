@@ -216,7 +216,7 @@
     from{background-color: green;}
     to{background-color: #f4c430;}   /* Golden Yellow */
     to{background-color: #00cfff;}   /* Electric Blue */
-    to{background-color: #ff4f81;}   /* Magento (Red Accent) */
+    to{background-color: #ff4f81;}   /* Magenta (Red Accent) */
 }
 
 @keyframes colorchangeheader{
@@ -228,7 +228,14 @@
 
 @keyframes h2containers{
     from{color: yellow;}
-    to{color: white;}
-    to{color: #0b3d91;}              /* Deep Blue */
+    to{color: #5a189a}               /* Deep Purple */
+    to{color: #e5e5e5;}              /* Soft Light Grey */
+    to{color: #1a237e;}              /* Dark Indigo */
+}
+
+@keyframes headertext{
+    from{color: darkblue;}
     to{color: #1b1b1b;}              /* Charcoal */
+    to{color: #1b5e20;}              /* Dark Forest Green */
+    to{color: #800020;}              /* Burgundy */
 }
