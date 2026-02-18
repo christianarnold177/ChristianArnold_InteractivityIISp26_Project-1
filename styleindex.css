@@ -163,3 +163,11 @@
     border:2px solid black;
     align-items:center;
 }
+
+@keyframes colorchange{
+    from{background-color: green;}
+    to{background-color: #f4c430;}   /* Golden Yellow */
+    to{background-color: #00cfff;}   /* Electric Blue */
+    to{background-color: #ff4f81;}   /* Magento (Red Accent) */
+    to{background-color: green;}
+}
