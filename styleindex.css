@@ -99,6 +99,10 @@
     background-color: lightgoldenrodyellow;
     border-radius:10px;
     text-align:center;
+    animation-name: colorchangeheader;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .grid{
