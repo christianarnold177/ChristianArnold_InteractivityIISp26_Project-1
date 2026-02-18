@@ -105,6 +105,13 @@
     animation-direction: alternate;
 }
 
+.header text{
+    animation-name: headertext;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
 .grid{
     display:flex;
     position:relative;
