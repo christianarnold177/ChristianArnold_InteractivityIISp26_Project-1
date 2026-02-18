@@ -199,6 +199,17 @@
     border-radius: 10px;
     border:2px solid black;
     align-items:center;
+    animation-name: colorchange;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.conclusion h2{
+    animation-name: h2containers;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 @keyframes colorchange{
