@@ -2,6 +2,10 @@
     width:auto;
     height:auto;
     background-image: url(images/Art\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;      /* Allows the background image to fill the screen */
+    background-attachment: fixed; /* The background image will stay still on scroll */
 }
 
 .paragraph-container1{
