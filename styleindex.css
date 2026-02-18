@@ -175,5 +175,12 @@
     from{background-color: lightgoldenrodyellow;}
     to{background-color: #f4c430;}   /* Soft Gold */
     to{background-color: #ffd6a5;}   /* Warm Peach */
-    to{background-color: #a8dadc;}   /* Muted Cyan */
+    to{background-color: #e3f2fd;}   /* Very Light Blue */
+}
+
+@keyframes h2containers{
+    from{color: yellow;}
+    to{color: white;}
+    to{color: #0b3d91;}              /* Deep Blue */
+    to{color: #1b1b1b;}              /* Charcoal */
 }
