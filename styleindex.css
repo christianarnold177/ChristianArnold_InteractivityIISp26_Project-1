@@ -23,14 +23,14 @@
     border:2px solid black;
     align-items:center;
     animation-name: colorchange;
-    animation-duration:8s;
+    animation-duration:2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 .paragraph-container1 h2{
     animation-name: h2containers;
-    animation-duration:8s;
+    animation-duration:2s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -50,14 +50,14 @@
     border:2px solid black;
     align-items:center;
     animation-name: colorchange;
-    animation-duration:5s;
+    animation-duration:4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 .paragraph-container2 h2{
     animation-name: h2containers;
-    animation-duration:5s;
+    animation-duration:4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -77,14 +77,14 @@
     border:2px solid black;
     align-items:center;
     animation-name: colorchange;
-    animation-duration:7s;
+    animation-duration:5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 .paragraph-container3 h2{
     animation-name: h2containers;
-    animation-duration:7s;
+    animation-duration:5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -197,12 +197,15 @@
    color: yellow;
    font-size: 30px;
    font-style: normal;
-   animation-name: h2containers;
-   animation-duration:6s;
+   animation-name: colorchange;
+   animation-duration:2s;
    animation-iteration-count: infinite;
    animation-direction: alternate;
-   animation-name: colorchange;
-   animation-duration:6s;
+}
+
+.text-panel h2{
+   animation-name: h2containers;
+   animation-duration:2s;
    animation-iteration-count: infinite;
    animation-direction: alternate;
 }
