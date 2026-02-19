@@ -173,7 +173,10 @@
 }
 
 .image-panel p{
-    animation-name: 
+    animation-name: imagetextcolor;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .image-panel img{
@@ -255,5 +258,5 @@
     from{color: blue;}
     to{color: #f4c430;}
     to{color: #ff4f81;}
-    to{color: #00cfff;}              /* Electric Cyan */
+    to{color: #00cfff;}
 }
