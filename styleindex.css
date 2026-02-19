@@ -172,6 +172,10 @@
     text-align: center;
 }
 
+.image-panel p{
+    animation-name: 
+}
+
 .image-panel img{
     flex:1;
     max-width:100%;
@@ -245,4 +249,11 @@
     to{color: #1b1b1b;}              /* Charcoal */
     to{color: #1b5e20;}              /* Dark Forest Green */
     to{color: #800020;}              /* Burgundy */
+}
+
+@keyframes imagetextcolor{
+    from{color: blue;}
+    to{color: #f4c430;}
+    to{color: #ff4f81;}
+    to{color: #00cfff;}              /* Electric Cyan */
 }
