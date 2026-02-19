@@ -140,6 +140,10 @@
     height:auto;
     position:relative;
     background-color:green;
+    animation-name: colorchange;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .panel-title{
@@ -197,6 +201,13 @@
    color: yellow;
    font-size: 30px;
    font-style: normal;
+}
+
+.panel-title h2{
+    animation-name: h2containers;
+    animation-duration:8s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .conclusion{
