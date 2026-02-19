@@ -273,21 +273,26 @@
 }
 
 .paragraph-container1 h2:hover{
+    animation-play-state: paused;
     color: #00cfff;
 }
 
 .paragraph-container2 h2:hover{
+    animation-play-state: paused;
     color: #00cfff;
 }
 
 .paragraph-container3 h2:hover{
+    animation-play-state: paused;
     color: #00cfff;
 }
 
 .text-panel h2:hover{
+    animation-play-state: paused;
     color: #00cfff;
 }
 
 .conclusion h2:hover{
+    animation-play-state: paused;
     color: #00cfff;
 }
