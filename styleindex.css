@@ -271,3 +271,23 @@
     to{color: #ff4f81;}
     to{color: #00cfff;}
 }
+
+.paragraph-container1 h2:hover{
+    color: #00cfff;
+}
+
+.paragraph-container2 h2:hover{
+    color: #00cfff;
+}
+
+.paragraph-container3 h2:hover{
+    color: #00cfff;
+}
+
+.text-panel h2:hover{
+    color: #00cfff;
+}
+
+.conclusion h2:hover{
+    color: #00cfff;
+}
