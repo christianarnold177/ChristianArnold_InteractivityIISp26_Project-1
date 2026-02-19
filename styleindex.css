@@ -50,14 +50,14 @@
     border:2px solid black;
     align-items:center;
     animation-name: colorchange;
-    animation-duration:8s;
+    animation-duration:5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 .paragraph-container2 h2{
     animation-name: h2containers;
-    animation-duration:8s;
+    animation-duration:5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -77,14 +77,14 @@
     border:2px solid black;
     align-items:center;
     animation-name: colorchange;
-    animation-duration:8s;
+    animation-duration:7s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 .paragraph-container3 h2{
     animation-name: h2containers;
-    animation-duration:8s;
+    animation-duration:7s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -100,14 +100,14 @@
     border-radius:10px;
     text-align:center;
     animation-name: colorchangeheader;
-    animation-duration:8s;
+    animation-duration:3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 .header text{
     animation-name: headertext;
-    animation-duration:8s;
+    animation-duration:3s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -140,10 +140,6 @@
     height:auto;
     position:relative;
     background-color:green;
-    animation-name: colorchange;
-    animation-duration:8s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
 }
 
 .panel-title{
@@ -178,7 +174,7 @@
 
 .image-panel p{
     animation-name: imagetextcolor;
-    animation-duration:8s;
+    animation-duration:4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
@@ -201,13 +197,14 @@
    color: yellow;
    font-size: 30px;
    font-style: normal;
-}
-
-.panel-title h2{
-    animation-name: h2containers;
-    animation-duration:8s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+   animation-name: h2containers;
+   animation-duration:6s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
+   animation-name: colorchange;
+   animation-duration:6s;
+   animation-iteration-count: infinite;
+   animation-direction: alternate;
 }
 
 .conclusion{
@@ -225,14 +222,14 @@
     border:2px solid black;
     align-items:center;
     animation-name: colorchange;
-    animation-duration:8s;
+    animation-duration:4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
 
 .conclusion h2{
     animation-name: h2containers;
-    animation-duration:8s;
+    animation-duration:4s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
 }
