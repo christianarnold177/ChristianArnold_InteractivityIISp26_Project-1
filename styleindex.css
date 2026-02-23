@@ -255,5 +255,5 @@
 
 :root{
     --cycle-speed: 18s;                   /* Smoother Control Speed */
-    --cycle-ease: ease-in-out
+    --cycle-ease: linear;
 }
