@@ -26,6 +26,7 @@
     animation-timing-function: linear;
     animation-duration: var(--cycle-speed);
     animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
 
 .paragraph-container1 h2{
@@ -33,6 +34,7 @@
     animation-timing-function: linear;
     animation-duration: var(--cycle-speed);
     animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
 
 .paragraph-container2{
@@ -50,9 +52,10 @@
     border:2px solid black;
     align-items:center;
     animation-name: colorchange2;
-     animation-timing-function: linear;
+    animation-timing-function: linear;
     animation-duration: var(--cycle-speed);
     animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
 
 .paragraph-container2 h2{
@@ -60,6 +63,7 @@
     animation-timing-function: linear;
     animation-duration: var(--cycle-speed);
     animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
 
 .paragraph-container3{
@@ -80,6 +84,7 @@
     animation-timing-function: linear;
     animation-duration: var(--cycle-speed);
     animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
 
 .paragraph-container3 h2{
@@ -87,6 +92,7 @@
     animation-timing-function: linear;
     animation-duration: var(--cycle-speed);
     animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
 
 .header{
