@@ -303,6 +303,6 @@
 }
 
 :root{
-    --cycle-speed: 12s;                   /* Smoother Control Speed */
+    --cycle-speed: 26s;                   /* Smoother Control Speed */
     --cycle-ease: linear;
 }
