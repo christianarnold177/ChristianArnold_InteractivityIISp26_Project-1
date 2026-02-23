@@ -254,7 +254,7 @@
     from{color: yellow;}
     to{color: #5a189a}               /* Deep Purple */
     to{color: #e5e5e5;}              /* Soft Light Grey */
-    to{color: #1a237e;}              /* Dark Indigo */
+    to{color: black;}              
 }
 
 @keyframes headertext{
