@@ -181,7 +181,11 @@
 }
 
 .image-panel p{
-    animation-name: imagetextcolor var(--cycle-speed) infinite var(--cycle-ease) alternate;
+    animation-name: imagetextcolor;
+    animation-timing-function: linear;
+    animation-duration: var(--cycle-speed);
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
 
 .image-panel img{
@@ -202,11 +206,19 @@
    color: yellow;
    font-size: 30px;
    font-style: normal;
-   animation-name: colorchange var(--cycle-speed) infinite var(--cycle-ease) alternate;
+   animation-name: colorchange;
+   animation-timing-function: linear;
+   animation-duration: var(--cycle-speed);
+   animation-direction: alternate-reverse;
+   animation-iteration-count: infinite;
 }
 
 .text-panel h2{
-   animation-name: h2containers var(--cycle-speed) infinite var(--cycle-ease) alternate;
+   animation-name: h2containers;
+   animation-timing-function: linear;
+   animation-duration: var(--cycle-speed);
+   animation-direction: alternate-reverse;
+   animation-iteration-count: infinite;
 }
 
 .conclusion{
