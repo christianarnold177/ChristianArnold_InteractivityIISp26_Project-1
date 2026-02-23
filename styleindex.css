@@ -22,17 +22,11 @@
     border-radius: 10px;
     border:2px solid black;
     align-items:center;
-    animation-name: colorchange;
-    animation-duration:2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation: colorchange var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 .paragraph-container1 h2{
-    animation-name: h2containers;
-    animation-duration:2s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-name: h2containers var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 .paragraph-container2{
@@ -49,17 +43,11 @@
     border-radius: 10px;
     border:2px solid black;
     align-items:center;
-    animation-name: colorchange;
-    animation-duration:4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-name: colorchange var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 .paragraph-container2 h2{
-    animation-name: h2containers;
-    animation-duration:4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-name: h2containers var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 .paragraph-container3{
@@ -76,17 +64,11 @@
     border-radius: 10px;
     border:2px solid black;
     align-items:center;
-    animation-name: colorchange;
-    animation-duration:5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-name: colorchange var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 .paragraph-container3 h2{
-    animation-name: h2containers;
-    animation-duration:5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-name: h2containers var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 .header{
@@ -99,17 +81,11 @@
     background-color: lightgoldenrodyellow;
     border-radius:10px;
     text-align:center;
-    animation-name: colorchangeheader;
-    animation-duration:3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-name: colorchangeheader var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 .header text{
-    animation-name: headertext;
-    animation-duration:3s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-name: headertext var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 .grid{
@@ -173,10 +149,7 @@
 }
 
 .image-panel p{
-    animation-name: imagetextcolor;
-    animation-duration:4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-name: imagetextcolor var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 .image-panel img{
@@ -197,17 +170,11 @@
    color: yellow;
    font-size: 30px;
    font-style: normal;
-   animation-name: colorchange;
-   animation-duration:2s;
-   animation-iteration-count: infinite;
-   animation-direction: alternate;
+   animation-name: colorchange var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 .text-panel h2{
-   animation-name: h2containers;
-   animation-duration:2s;
-   animation-iteration-count: infinite;
-   animation-direction: alternate;
+   animation-name: h2containers var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 .conclusion{
@@ -224,17 +191,11 @@
     border-radius: 10px;
     border:2px solid black;
     align-items:center;
-    animation-name: colorchange;
-    animation-duration:4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-name: colorchange var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 .conclusion h2{
-    animation-name: h2containers;
-    animation-duration:4s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-name: h2containers var(--cycle-speed) infinite var(--cycle-ease) alternate;
 }
 
 @keyframes colorchange{
@@ -290,4 +251,9 @@
 
 .conclusion h2:hover{
     animation-play-state: paused;
+}
+
+:root{
+    --cycle-speed: 18s;                   /* Smoother Control Speed */
+    --cycle-ease: ease-in-out
 }
