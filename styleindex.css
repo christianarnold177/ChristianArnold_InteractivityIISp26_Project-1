@@ -223,7 +223,11 @@
 }
 
 .conclusion h2{
-    animation-name: h2containers var(--cycle-speed) infinite var(--cycle-ease) alternate;
+    animation-name: h2containers;
+    animation-timing-function: linear;
+    animation-duration: var(--cycle-speed);
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
 
 @keyframes colorchange{
