@@ -223,38 +223,49 @@
 }
 
 @keyframes colorchange{
-    from{background-color: green;}
-    to{background-color: #f4c430;}   /* Golden Yellow */
-    to{background-color: #00cfff;}   /* Electric Blue */
-    to{background-color: #ff4f81;}   /* Magenta (Red Accent) */
+  0% {
+    background-color: green;
+  }
+  25% {
+    background-color: #00cfff;  /* Cyan */
+  }
+  50% {
+    background-color: #f4c430;  /* Golden Yellow */
+  }
+  75% {
+    background-color: #ff4f81;  /* Magenta */
+  }
+  100% {
+    background-color: green;  /* Infinite Loop */
+  }
 }
 
 @keyframes colorchange2{
-    from{background-color: green;}
-    to{background-color: #ff4f81;} 
-    to{background-color: #00cfff;}   
-    to{background-color: #f4c430;}
+    0% { background-color: green;}
+   33% { background-color: #ff4f81;} 
+   66% { background-color: #00cfff;}
+  100% { background-color: #f4c430;}
 }
 
 @keyframes colorchange3{
-    from{background-color: green;}
-    to{background-color: #ff4f81;} 
-    to{background-color: #f4c430;}   
-    to{background-color: #00cfff;}
+    0% {background-color: green;}
+   33% {background-color: #ff4f81;} 
+   66% {background-color: #f4c430;}   
+  100% {background-color: #00cfff;}
 }
 
 @keyframes colorchangeheader{
-    from{background-color: lightgoldenrodyellow;}
-    to{background-color: #f4c430;}   /* Soft Gold */
-    to{background-color: #ffd6a5;}   /* Warm Peach */
-    to{background-color: gray;} 
+    0% {background-color: lightgoldenrodyellow;}
+   33% {background-color: #f4c430;}   /* Soft Gold */
+   66% {background-color: #ffd6a5;}   /* Warm Peach */
+  100% {background-color: gray;} 
 }
 
 @keyframes h2containers{
-    from{color: yellow;}
-    to{color: #5a189a}               /* Deep Purple */
-    to{color: #e5e5e5;}              /* Soft Light Grey */
-    to{color: black;}              
+    0% {color: yellow;}
+   33% {color: #5a189a}               /* Deep Purple */
+   66% {color: #e5e5e5;}              /* Soft Light Grey */
+  100% {color: black;}              
 }
 
 @keyframes headertext{
