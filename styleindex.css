@@ -215,7 +215,11 @@
     border-radius: 10px;
     border:2px solid black;
     align-items:center;
-    animation-name: colorchange var(--cycle-speed) infinite var(--cycle-ease) alternate;
+    animation-name: colorchange3;
+    animation-timing-function: linear;
+    animation-duration: var(--cycle-speed);
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
 }
 
 .conclusion h2{
