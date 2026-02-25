@@ -304,23 +304,38 @@
 }
 
 .paragraph-container1 h2:hover{
-    animation-play-state: paused;
+    animation-play-state: paused;  /* Stops the Animation */
+    color: white;               /* Turns the text white */
+    text-shadow: 0 0 8px rgba(255,255,255,0.8);
+    transform: scale(1.05);
 }
 
 .paragraph-container2 h2:hover{
     animation-play-state: paused;
+    color: white;
+    text-shadow: 0 0 8px rgba(255,255,255,0.8);
+    transform: scale(1.05);
 }
 
 .paragraph-container3 h2:hover{
     animation-play-state: paused;
+    color: white;
+    text-shadow: 0 0 8px rgba(255,255,255,0.8);
+    transform: scale(1.05);
 }
 
 .text-panel h2:hover{
     animation-play-state: paused;
+    color: white;
+    text-shadow: 0 0 8px rgba(255,255,255,0.8);
+    transform: scale(1.05);
 }
 
 .conclusion h2:hover{
     animation-play-state: paused;
+    color: white;
+    text-shadow: 0 0 8px rgba(255,255,255,0.8);
+    transform: scale(1.05);
 }
 
 :root{
