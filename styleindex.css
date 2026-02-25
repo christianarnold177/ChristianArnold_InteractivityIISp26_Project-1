@@ -9,15 +9,45 @@
 }
 
 .h1section1{
-   
+   font-family: inherit;      /* Font will stay the same as the entire website */
+   text-align: center;
+   width: 100%;
+   margin: 20px auto;
+   padding: 8px 12px;
+   font-size: 65px;
+   font-weight: 700;
+   line-height: 1.1;
+   color: #0b3d91;          /* Deep Navy */
+   text-shadow: 0 2px 0 rgba(0,0,0,0.35), 0 0 10px rgba(255,255,255,0.25);
+   animation: h1glowing 6s infinite ease-in-out;
 }
 
 .h1section2{
-
+   font-family: inherit;
+   text-align: center;
+   width: 100%;
+   margin: 20px auto;
+   padding: 8px 12px;
+   font-size: 65px;
+   font-weight: 700;
+   line-height: 1.1;
+   color: #0b3d91;          /* Deep Navy */
+   text-shadow: 0 2px 0 rgba(0,0,0,0.35), 0 0 10px rgba(255,255,255,0.25);
+   animation: h1glowing 6s infinite ease-in-out;
 }
 
 .h1section3{
-
+   font-family: inherit;
+   text-align: center;
+   width: 100%;
+   margin: 20px auto;
+   padding: 8px 12px;
+   font-size: 65px;
+   font-weight: 700;
+   line-height: 1.1;
+   color: #0b3d91;          /* Deep Navy */
+   text-shadow: 0 2px 0 rgba(0,0,0,0.35), 0 0 10px rgba(255,255,255,0.25);
+   animation: h1glowing 6s infinite ease-in-out;
 }
 
 .paragraph-container1{
@@ -318,6 +348,16 @@
    33% {color: #f4c430;}
    66% {color: #ff4f81;}
   100% {color: #00cfff;}
+}
+
+@keyframes h1glowing{
+    0%, 100%{
+        text-shadow: 0 2px 4px rgba(0,0,0,0.35), 0 0 10px rgba(255,255,255,0.25);
+    }
+
+    50%{
+        text-shadow: 0 2px 6px rgba(0,0,0,0.4), 0 0 14px rgba(255,255,255,0.35), 0 0 22px rgba(0,207,255,0.55);  /* Soft Cyan Glow Effect */
+    }
 }
 
 .paragraph-container1 h2:hover{
