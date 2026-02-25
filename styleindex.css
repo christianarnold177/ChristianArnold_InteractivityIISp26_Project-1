@@ -35,6 +35,7 @@
     animation-duration: var(--cycle-speed);
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .paragraph-container2{
@@ -64,6 +65,7 @@
     animation-duration: var(--cycle-speed);
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .paragraph-container3{
@@ -93,6 +95,7 @@
     animation-duration: var(--cycle-speed);
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .header{
@@ -219,6 +222,7 @@
    animation-duration: var(--cycle-speed);
    animation-direction: alternate-reverse;
    animation-iteration-count: infinite;
+   transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 .conclusion{
@@ -248,6 +252,7 @@
     animation-duration: var(--cycle-speed);
     animation-direction: alternate-reverse;
     animation-iteration-count: infinite;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
 }
 
 @keyframes colorchange{
