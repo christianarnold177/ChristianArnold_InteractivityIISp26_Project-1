@@ -9,7 +9,6 @@
 }
 
 .h1section1{
-   font-family: inherit;      /* Font will stay the same as the entire website */
    text-align: center;
    width: 100%;
    margin: 20px auto;
@@ -23,7 +22,6 @@
 }
 
 .h1section2{
-   font-family: inherit;
    text-align: center;
    width: 100%;
    margin: 20px auto;
@@ -37,7 +35,6 @@
 }
 
 .h1section3{
-   font-family: inherit;
    text-align: center;
    width: 100%;
    margin: 20px auto;
