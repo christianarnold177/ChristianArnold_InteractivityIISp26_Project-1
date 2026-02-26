@@ -31,7 +31,7 @@
    font-size: 65px;
    font-weight: 700;
    line-height: 1.1;
-   color: #0b3d91;          /* Deep Navy */
+   color: #c62828;          /* Crimson Red */
    text-shadow: 0 2px 0 rgba(0,0,0,0.35), 0 0 10px rgba(255,255,255,0.25);
    animation: h1glowing 6s infinite ease-in-out;
 }
@@ -45,7 +45,7 @@
    font-size: 65px;
    font-weight: 700;
    line-height: 1.1;
-   color: #0b3d91;          /* Deep Navy */
+   color: #f4c430;
    text-shadow: 0 2px 0 rgba(0,0,0,0.35), 0 0 10px rgba(255,255,255,0.25);
    animation: h1glowing 6s infinite ease-in-out;
 }
